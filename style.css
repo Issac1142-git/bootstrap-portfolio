@@ -1,0 +1,125 @@
+body{
+    background-color: #0091ea;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#f50057;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand {
+    color: #f50057;
+}
+
+.navbar-dark .navbar-brand span{
+    font-weight: bold;
+    line-height: inherit;
+}
+
+.profile{
+    height: 20rem;
+    border-radius: 50%;
+}
+
+#home{
+    margin-bottom: 8rem;
+}
+#about{
+    width: 80%;
+    background-color: #3e2723;
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 5px #3e2723;
+}
+
+.myname{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.title{
+    color: #f50057;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Libre Baskerville', serif;
+   
+}
+
+.navbar-nav .nav-item a.active{
+    background-color: #f50057;
+    border-radius: 15px;
+}
+
+.navbar-nav .nav-item a.active:hover{
+    color: white;
+    font-weight: 900;
+}
+
+#skills{
+  padding-top: 60px;  
+}
+#skills > .row{
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    
+
+}
+
+#skills > .row::-webkit-scrollbar{
+    width: 20px;
+    color: grey;
+}
+
+#skills > .row::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+#skills > .row::-webkit-scrollbar-thumb{
+    background: #212529;
+    border-radius: 10px;
+}
+
+#skills > .row::-webkit-scrollbar-thumb:hover{
+    background:#880e4f;
+}
+
+.skills > img{
+    height: 100px;
+    width: 100px;
+}
+
+#education{
+    padding-top: 60px;
+}
+
+.projbutton{
+    background: #f50057;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.projbutton:hover{
+    background: white;
+    color: #f50057;
+}
+
+.contact{
+    height: 50px;
+    width: 50px;
+    
+}
+
+#contact{
+    padding-bottom: 60px;
+}
+
+.gmail{
+    background: black;
+}
